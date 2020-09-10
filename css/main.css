@@ -2346,7 +2346,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-area .overlay {
   background: #000;
-  opacity: .5;
+  opacity: 0;
 }
 
 .banner-area .primary-btn {
