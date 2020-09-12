@@ -31,6 +31,11 @@
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/index.css">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> 
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 
 <link rel="icon" href="img/fav.png" type="image">
 
@@ -57,19 +62,19 @@
 <div class="container main-menu">
 <div class="row align-items-center justify-content-between d-flex">
 <div id="logo" style="margin: auto;">
-<a href="index.html"><img src="img/logo-esp.png" alt="" title="" /></a>
+<a href="index.html"><img src="img/land1.png" alt="" title="" /></a>
 </div>
 <nav id="nav-menu-container">
 <ul class="nav-menu">
 <li><a href="about.html">About</a></li>
 <li class="menu-has-children"><a href="#">His Excellency Speech</a>
   <ul>
-    <li><a href="president.html">The President</a></li>
-    <li><a href="vp.html">The Vice-President</a></li>
+    <li><a href="president.html">From the President</a></li>
+    <li><a href="vp.html">From the Vice-President</a></li>
   </ul>
     </li>
 <!-- <li><a href="president.html">From the President</a></li> -->
-<li class="menu-has-children"><a href="highlight.html">Highlights of Key Interventions</a>
+<li class="menu-has-children"><a href="highlight.html">Key Interventions</a>
     <!-- <ul>
     <li><a href="">Preserving and Creating Jobs</a></li>
     <li><a href="#">Sourcing Local Materials</a></li>
@@ -144,22 +149,23 @@
 <div class="overlay overlay-bg"></div>
 <div class="container">
 <div class="row fullscreen d-flex align-items-center justify-content-center">
-<!-- <div class="banner-content col-lg-12 col-md-12">
-<h1>
+<div class="banner-content col-lg-12 col-md-12">
+<h1 class="animated slideInLeft">
     Nigeria Economic Sustainability Plan
 </h1>
-<h5 class="text-white">
+<h5 class="text-white animated slideInRight">
     ...The response of the Federal Government of Nigeria to the economic challenges posed by the Covid-19 pandemic.
 </h5>
-</div> -->
+</div>
 </div>
 </div>
 </section>
 
 <section class="home-about-area section-gap" id="about">
 <div class="container">
+
 <div class="row">
-<div class="col-lg-6 col-md-6 home-about-left" style="padding-top:35px;">
+<div class="col-lg-6 col-md-6 home-about-left" style="padding:35px;" data-aos="fade-right">
 <h1>
     About the Nigeria  <br>
     Economic Sustainability Plan
@@ -174,8 +180,8 @@
 <a class="primary-btn" href="about.html">Learn More</a>
 </div>
 
-<div class="col-lg-6 col-md-6">
-    <img src="img/osinbanjo.png" alt="Image" class="img-fluid rounded">
+<div class="col-lg-6 col-md-6" data-aos="fade-left">
+    <img src="img/osinbanjo5.png" alt="Image" class="img-fluid rounded">
 
 </div>
 </div>
@@ -187,16 +193,16 @@
 
 
 
-<section class="home-about-area section-gap bg-light" id="about">
+<section class="home-about-area section-gap bg-light" id="about" >
     <div class="container">
-    <div class="row">
+    <div class="row" data-aos="fade-up">
 
     <div class="col-lg-6 col-md-6">
         <img src="img/buhari.jpg" alt="Image" class="img-fluid rounded">
     
     </div>
 
-    <div class="col-lg-6 col-md-6 home-about-left" style="padding-top:30px;">
+    <div class="col-lg-6 col-md-6 home-about-left" style="padding-top:50px;" >
     <h1>
         From the President  
     </h1>
@@ -230,11 +236,11 @@
 <h1 class="mb-10">Membership of the Economic Sustainability Committee</h1><br/>
 <p>
     Chaired by Vice President Yemi Osinbajo, the ESC comprised several Cabinet Ministers as well as the
-     Group Managing Director of the NNPC and the Governor of the Central Bank of Nigeria (CBN).</p>
+     Group Managing Director of the NNPC <br/>and the Governor of the Central Bank of Nigeria (CBN).</p>
 </div>
 </div>
 <div class="row">
-<div class="col-lg-4" style="padding:50px;">
+<div data-aos="fade-right" class="col-lg-4" style="padding:50px;">
 <div class="single-service">
 <div class="thumb">
 <img src="profile/vp.jpg" alt="">
@@ -245,7 +251,7 @@ inappropriate behavior is often laughed off as “boys will be boys,” women fa
 </p> -->
 </div>
 </div>
-<div class="col-lg-4" style="padding:50px;">
+<div data-aos="fade-up" class="col-lg-4" style="padding:50px;">
 <div class="single-service">
 <div class="thumb">
 <img src="profile/fin.jpg" alt="">
@@ -253,7 +259,7 @@ inappropriate behavior is often laughed off as “boys will be boys,” women fa
 <h5 style="text-align: center; padding-top:15px; font-weight:300;">Hon. Minister, Finance, Budget & National Planning</h5>
 </div>
 </div>
-<div class="col-lg-4" style="padding:50px;">
+<div data-aos="fade-left" class="col-lg-4" style="padding:50px;">
 <div class="single-service">
 <div class="thumb">
 <img src="profile/bud.jpg" alt="">
@@ -264,7 +270,7 @@ inappropriate behavior is often laughed off as “boys will be boys,” women fa
 </div>
 </div>
 <div class="row">
-    <div class="col-lg-4" style="padding:50px;">
+    <div class="col-lg-4" style="padding:50px;" data-aos="fade-right">
     <div class="single-service">
     <div class="thumb">
     <img src="profile/trade.jpg" alt="">
@@ -272,7 +278,7 @@ inappropriate behavior is often laughed off as “boys will be boys,” women fa
     <h5 style="text-align: center; padding-top:25px; font-weight:300;">Hon. Minister, Industry Trade & Investment</h5>
       </div>
     </div>
-    <div class="col-lg-4" style="padding:50px;">
+    <div class="col-lg-4" style="padding:50px;" data-aos="fade-up">
     <div class="single-service">
     <div class="thumb">
     <img src="profile/labour.jpg" alt="">
@@ -280,7 +286,7 @@ inappropriate behavior is often laughed off as “boys will be boys,” women fa
     <h5 style="text-align: center; padding-top:25px; font-weight:300;">Hon. Minister, Labour and Employment</h5>
     </div>
     </div>
-    <div class="col-lg-4" style="padding:50px;">
+    <div class="col-lg-4" style="padding:50px;" data-aos="fade-left">
     <div class="single-service">
     <div class="thumb">
     <img src="profile/petroleum.jpg" alt="">
@@ -292,7 +298,7 @@ inappropriate behavior is often laughed off as “boys will be boys,” women fa
     </div>
 
     <div class="row">
-        <div class="col-lg-4" style="padding:50px;">
+        <div class="col-lg-4" style="padding:50px;" data-aos="fade-right">
         <div class="single-service">
         <div class="thumb">
         <img src="profile/cbn2.jpg" alt="">
@@ -303,7 +309,7 @@ inappropriate behavior is often laughed off as “boys will be boys,” women fa
         </p> -->
         </div>
         </div>
-        <div class="col-lg-4" style="padding:50px;">
+        <div class="col-lg-4" style="padding:50px;" data-aos="fade-up">
         <div class="single-service">
         <div class="thumb">
         <img src="profile/nnpc2.jpg" alt="">
@@ -311,7 +317,7 @@ inappropriate behavior is often laughed off as “boys will be boys,” women fa
         <h5 style="text-align: center; padding-top:25px; font-weight:300;">Group Managing Director, NNPC</h5>
         </div>
         </div>
-        <div class="col-lg-4" style="padding:50px;">
+        <div class="col-lg-4" style="padding:50px;" data-aos="fade-left">
         <div class="single-service">
         <div class="thumb">
         <img src="profile/psc2.jpeg" alt="">
@@ -331,49 +337,52 @@ inappropriate behavior is often laughed off as “boys will be boys,” women fa
 
 
 <footer class="footer-area section-gap">
-<div class="container">
-<div class="row" style="color:rgb(209, 209, 209)">
-<div class="col-lg-8 col-md-8 col-sm-6">
-<div class="single-footer-widget">
-<h6>About Us</h6>
-<p>
-    The Nigeria Economic Sustainability Plan is the response of the Federal Government of Nigeria to the economic challenges posed by the Covid-19 pandemic.
-
-</p>
-<p class="footer-text">
-
-    Copyright &copy;<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="7f60177b068bde1041773c0a-text/javascript">document.write(new Date().getFullYear());</script> All rights reserved 
+    <div class="container">
+    <div class="row" style="color:rgb(209, 209, 209)">
+    <div class="col-lg-8 col-md-8 col-sm-6">
+    <div class="single-footer-widget">
+    <h6>About Us</h6>
+    <p>
+        The Nigeria Economic Sustainability Plan is the response of the Federal Government of Nigeria to the economic challenges posed by the Covid-19 pandemic.
     
     </p>
-</div>
-</div>
-<div class="col-lg-2  col-md-2 col-sm-6">
-<!-- <div class="single-footer-widget">
-<h6>Quick Links</h6>
-<p>Stay update with our latest</p>
+    <p class="footer-text">
+    
+        Copyright &copy; All rights reserved 
+        
+        </p>
+    </div>
+    </div>
+    <div class="col-lg-2  col-md-2 col-sm-6">
+    <!-- <div class="single-footer-widget">
+    <h6>Quick Links</h6>
+    <p>Stay update with our latest</p>
+    
+    </div> -->
+     </div>
+    <div class="col-lg-2 col-md-2 col-sm-6 social-widget">
+    <div class="single-footer-widget">
+    <h6>Follow Us</h6>
+    <p>Let us be social</p>
+    <div class="footer-social d-flex align-items-center">
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-youtube"></i></a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </footer>
 
-</div> -->
- </div>
-<div class="col-lg-2 col-md-2 col-sm-6 social-widget">
-<div class="single-footer-widget">
-<h6>Follow Us</h6>
-<p>Let us be social</p>
-<div class="footer-social d-flex align-items-center">
-<a href="#"><i class="fa fa-facebook"></i></a>
-<a href="#"><i class="fa fa-twitter"></i></a>
-<a href="#"><i class="fa fa-instagram"></i></a>
-<a href="#"><i class="fa fa-youtube"></i></a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</footer>
 
+
+<script src="js/rocket-loader.min.js" data-cf-settings="54933f990385ecb43710eccb-|49" defer=""></script><script defer src="../../../../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"5cba1a793fb7c4e8","version":"2020.7.0","si":10}'></script>
 <script src="js/vendor/jquery-2.2.4.min.js" type="54933f990385ecb43710eccb-text/javascript"></script>
 <script src="js/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" type="54933f990385ecb43710eccb-text/javascript"></script>
 <script src="js/vendor/bootstrap.min.js" type="54933f990385ecb43710eccb-text/javascript"></script>
-<script type="54933f990385ecb43710eccb-text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+<!-- <script type="54933f990385ecb43710eccb-text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script> -->
 <script src="js/easing.min.js" type="54933f990385ecb43710eccb-text/javascript"></script>
 <script src="js/hoverIntent.js" type="54933f990385ecb43710eccb-text/javascript"></script>
 <script src="js/superfish.min.js" type="54933f990385ecb43710eccb-text/javascript"></script>
@@ -384,9 +393,16 @@ inappropriate behavior is often laughed off as “boys will be boys,” women fa
 <script src="js/jquery.nice-select.min.js" type="54933f990385ecb43710eccb-text/javascript"></script>
 <script src="js/jquery.counterup.min.js" type="54933f990385ecb43710eccb-text/javascript"></script>
 <script src="js/waypoints.min.js" type="54933f990385ecb43710eccb-text/javascript"></script>
-<script src="js/mail-script.js" type="54933f990385ecb43710eccb-text/javascript"></script>
+<!-- <script src="js/mail-script.js" type="54933f990385ecb43710eccb-text/javascript"></script> -->
 <script src="js/main.js" type="54933f990385ecb43710eccb-text/javascript"></script>
-<script src="js/rocket-loader.min.js" data-cf-settings="54933f990385ecb43710eccb-|49" defer=""></script><script defer src="../../../../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"5cba1a793fb7c4e8","version":"2020.7.0","si":10}'></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({
+    delay:0,
+	duration:1200
+	});  </script>
+
 </body>
 
 <!-- Mirrored from colorlib.com/preview/theme/industry/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 31 Aug 2020 22:14:38 GMT -->

@@ -2,3 +2,17 @@
     padding-top:20px;
     padding-bottom:50px;
 }
+
+
+.whereWeAre .container{
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 120px;
+}
+
+.whereWeAre .container h3{
+color: rgb(94, 93, 93);
+}
+
